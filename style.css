@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.form-control:focus { 
+    box-shadow: 0 0 0 0.25rem #FEAA27;
+}
+
+.btn {
+    border-color: #FEAA27;
+}
+
+.btn:hover {
+    background-color: #FEAA27;
+}
+
+form:focus-within .btn {
+    box-shadow: 0 0 0 0.25rem #FEAA27;
+}
+
+#foodContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.foodCard, .SinglefoodCard {
+    width: 200px; 
+    margin: 10px;  
+    border-radius: 10px;    
+    box-shadow: 4px 4px 8px #feac27a1;
+}
+
+.foodCard h6 {
+    padding: 10px;
+    text-align: center;
+}
+
+.food-img {
+    width: 100%;
+    border-radius: 10px;
+}
+ 
+
+.SinglefoodCard {
+    width: 350px;
+    margin: auto; 
+    margin-bottom: 50px;
+}
+
+.SinglefoodCard h4 {
+    padding: 25px 20px;
+}
+
+.SinglefoodCard h6 {
+    padding: 2px 20px;
+}
+
+.ingredientsList {
+    padding: 5px 50px 20px 50px;
+}
